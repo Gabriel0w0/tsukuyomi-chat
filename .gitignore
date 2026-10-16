@@ -1,0 +1,111 @@
+# ==============================================
+# Python & Bytecode
+# ==============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==============================================
+# Virtual Environments (venv / uv / conda)
+# ==============================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==============================================
+# Environment Variables & Secrets
+# ==============================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ==============================================
+# SQLite & Databases
+# ==============================================
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+*.sqlite3-journal
+
+# ==============================================
+# Vector Stores & Local RAG Indices (ChromaDB)
+# ==============================================
+vector_stores/
+user_file_vectors/
+storage/
+*.lock
+chroma.lock
+
+# ==============================================
+# User Uploads & Generated Research Reports
+# ==============================================
+user_uploads/
+report_*.txt
+report_*.md
+research_*.json
+research_*.txt
+research_*.md
+
+# ==============================================
+# Audio Cache & TTS Outputs
+# ==============================================
+# 避免推送暫存的語音檔
+*.wav
+*.mp3
+static/audio/
+tts_cache/
+temp_audio/
+
+# ==============================================
+# HuggingFace & ML Model Weights / Cache
+# ==============================================
+.cache/
+models/
+huggingface/
+checkpoints/
+
+# ==============================================
+# macOS & Operating System Files
+# ==============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==============================================
+# IDEs & Text Editors
+# ==============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.cursor/
